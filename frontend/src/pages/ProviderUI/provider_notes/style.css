@@ -1,0 +1,73 @@
+.notesContainer{
+    display: grid;
+    grid-template-columns: 1fr ;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 40%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  
+
+
+
+}
+.noteimg{
+  width: 100%; 
+  height:80%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+
+.pageContainer{
+padding: 1rem;
+}
+.pNote{
+  border: 2px black solid;
+  padding: .5rem;
+  display: flex;
+  flex-direction: column;
+  gap: .6rem;
+  font-family: Georgia, 'Times New Roman', Times, serif, 'Times New Roman', Times, serif;
+text-align: left;
+font-size:1rem;
+width: 100%;
+height: 100%;
+border: outset 5px teal;
+    border-radius: .5rem;
+    box-shadow:  6px 5px 5px rgba(0, 0, 0, 0.389);
+background-color: #fff;
+}
+.myNotesContainer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap :1.5rem;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+span{
+  font-weight: bolder;
+}
+.headerOfPNotes{
+  display:flex;
+  align-items:center;
+  justify-content:space-around;
+}
+.searchNotes{
+  display:flex;
+  align-items:center;
+  justify-content:space-around
+}
+@media (max-width: 700px){
+  .headerOfPNotes{
+      display: flex;
+      flex-direction: column ;
+      gap: 1rem;
+  }   
+  .myNotesContainer{
+    display: grid;
+    grid-template-columns: 1fr  }
+}

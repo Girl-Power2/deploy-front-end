@@ -1,0 +1,64 @@
+.times{
+    display: flex;
+    flex-direction: row;
+    align-items: space-between;
+    justify-items: center;
+    justify-content: space-between;
+    margin: 1rem;
+    line-height: 0%
+    ;
+}
+#green{
+    --mdb-table-bg:#29ba49c0;
+    font-size: 20px;
+   
+ 
+}
+#red{
+    --mdb-table-bg:#f22323b0;
+    font-size: 20px;
+
+}
+
+
+.table th {
+    font-weight: 530;
+    font-size: larger;
+    font-family: Georgia, Times, 'Times New Roman', serif
+}
+.table {
+    --mdb-table-font-size: 1.2rem;
+    --mdb-table-divider-color: rgba(0, 0, 0, 0.1);
+    font-size: var(--mdb-table-font-size);
+}
+.table-light {
+    --mdb-table-color: #000;
+    --mdb-table-bg: #c5e3d8a1;
+    --mdb-table-border-color: #04440d;
+   
+    --mdb-table-active-bg: #abefce;
+    --mdb-table-active-color: #0f7237;
+    --mdb-table-hover-bg: #94dbb1;
+    --mdb-table-hover-color: #0a0101;
+    color: var(--mdb-table-color);
+    border-color: var(--mdb-table-border-color);
+}
+.btn1{
+   
+    font-size: 26px;
+
+}
+.tableContainer{
+    padding-left: 7rem;
+    padding-right: 7rem;
+}
+.myScheduleContainer{
+    padding: 1rem;
+}
+/* @media (orientation: landscape) {
+    .tableContainer {
+      flex-direction: row;
+     
+    } 
+   
+  } */

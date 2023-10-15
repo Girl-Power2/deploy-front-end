@@ -1,0 +1,19 @@
+.table th {
+    font-weight: 530;
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: "#eee";
+}
+.table  {
+    --mdb-table-color: #050505;
+    --mdb-table-bg: #E0F2F1 !important ;
+    --mdb-table-border-color: #474242;
+    --mdb-table-striped-bg: #bbc3f87d;
+    --mdb-table-striped-color: #0c0c0c00;
+    --mdb-table-active-bg: #474242;
+    --mdb-table-active-color: #fff;
+    --mdb-table-hover-bg: #423d3d6e;
+    --mdb-table-hover-color: #fff;
+    color: var(--mdb-table-color);
+    border-color: var(--mdb-table-border-color);
+}

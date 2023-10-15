@@ -1,0 +1,93 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #0A8A7F;
+  text-decoration: inherit;
+  font-size:larger;
+}
+a:hover {
+  color: #000000 !important;
+}
+
+body {
+  margin: 0;
+ 
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #E0F2F1;
+  /* background-image: url("https://i.imgur.com/8YxZ07c.jpg"); */
+
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #000000;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+.btn-primary {
+  --mdb-btn-bg: #80838b;
+  --mdb-btn-color: #fff;
+  --mdb-btn-box-shadow: 0 4px 9px -4px #0c0c0c;
+  --mdb-btn-hover-bg: #58595a;
+  --mdb-btn-hover-color: #fff;
+  --mdb-btn-focus-bg: #80838b;
+  --mdb-btn-focus-color: #fff;
+  --mdb-btn-active-bg: #80838b ;
+  --mdb-btn-active-color: #fff;
+}
+.btn.btn-primary:focus {
+  box-shadow: 0 8px 9px -4px rgba(59,113,202,.3), 0 4px 18px 0 rgba(59,113,202,.2);
+  background-color: #176c59;
+}
+.primary:active{
+background-color: #176c59;;
+}
